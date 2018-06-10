@@ -13,16 +13,16 @@ public class Calc {
 
         switch (operation) {
         case '+':
-            System.out.println(a + " + " + b + " = " + (a + b));
+            System.out.printf("%f + %f = %f", a, b, a + b);
             break;
         case '-':
-            System.out.println(a + " - " + b + " = " + (a - b));
+            System.out.printf("%f - %f = %f", a, b, a - b);
             break;
         case '*':
-            System.out.println(a + " * " + b + " = " + (a * b));
+            System.out.printf("%f * %f = %f", a, b, a * b);
             break;
         case '/':
-            System.out.println(a + " / " + b + " = " + (a / b));
+            System.out.printf("%f / %f = %f", a, b, a / b);
             break;
         default:
             System.out.println("Unknown operation!");
